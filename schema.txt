@@ -1,0 +1,28 @@
+jobNeeded: {
+    tittle: string,
+    companyName: string,
+    logoBrand: string,
+    addressCity: string,
+    description: string,
+    type: string
+}
+
+talents: {
+    profilePhoto: string,
+    name: string,
+    socialMedia: [{_id: objectId}]
+    description: string,
+    portofolio: [{_id: objectId}]
+}
+
+socialMedia: {
+    github: string,
+    instagram: string,
+    email: string,
+    Web: string
+}
+
+portofolio: {
+    thumbnailImage: string,
+    linkPortofolio: string
+}
